@@ -1,8 +1,9 @@
-#nav-bar-name {
-  font-family: 'Passion One';
-  font-size: '3';
+.navbar{
+  background-color: #778899;
 }
 
-.navbar {
-  opacity: 0.5;
+.navbar-toggler{
+  position: relative;
+  left: 95%;
+  background-color: #708090;
 }
