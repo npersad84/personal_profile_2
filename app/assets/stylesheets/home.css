@@ -1,9 +1,31 @@
-.navbar{
+.navbar {
   background-color: #778899;
+  opacity: 0.90;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   position: relative;
-  left: 95%;
+  right: 0.25%;
   background-color: #708090;
+}
+
+#navbar-me {
+  font-family: 'Press Start 2P';
+  font-size: 1.0em;
+  color: white;
+  margin-bottom: 0;
+}
+
+.nav-link {
+  color: white;
+  font-family: 'Press Start 2P';
+}
+
+body { 
+  background-image: url('frogs.jpg');
+  background-repeat: no-repeat;
+  background-position: fixed; 
+  background-size: cover;
+  background-color: #778899;
+  background-blend-mode: screen;
 }

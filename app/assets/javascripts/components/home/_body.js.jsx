@@ -1,7 +1,8 @@
 var Body = React.createClass({
   render() {
     return (
-      <div>
+      <div className="container-fluid body">
+        <p>In the body!</p>
       </div>
     );
   }

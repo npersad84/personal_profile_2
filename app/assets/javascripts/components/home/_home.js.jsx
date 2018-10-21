@@ -3,6 +3,7 @@ var Home = React.createClass({
     return (
       <div>
         <Navbar/>
+        <Body/>
       </div>
     );
   }
