@@ -6,7 +6,10 @@ gem 'rails', '5.2.0'
 gem 'railties', '5.2.0'
 gem 'activesupport', '5.2.0'
 gem 'activemodel', '5.2.0'
-gem 'react-rails'
+# For jsx installation
+gem 'webpacker'
+gem 'react-rails', git: 'https://github.com/reactjs/react-rails.git', branch: 'master'
+#
 gem 'slim-rails'
 # Use SCSS for stylesheets
 gem 'sass-rails'
