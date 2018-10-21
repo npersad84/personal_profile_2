@@ -1,10 +1,18 @@
-var Home = React.createClass({
+'use strict';
+
+class Home extends React.Component{
+  constructor(props) {
+    super(props)
+  }
+
   render() {
     return (
       <div>
-        <Navbar/>
+        <Navbar 
+          routes={this.props.routes}
+        />
         <Body/>
       </div>
     );
-  }
-});
+  };
+};
